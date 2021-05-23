@@ -1,2 +1,2 @@
 # Frontendproject
-Progress of my frontend journey. 
+A simple landing page. 
