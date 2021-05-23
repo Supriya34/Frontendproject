@@ -1,0 +1,138 @@
+/**Variables**/
+:root {
+  --clr-primary-violet: hsl(257, 40%, 49%);
+  --clr-magneta: hsl(300, 69%, 71%);
+
+  --clr-neutral-white: hsl(0, 0%, 100%);
+  --clr--white-transparent: hsla(0, 0%, 100%, 0.75);
+
+  --fw-400: 400;
+  --fw-600: 600;
+}
+
+/**Reset**/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p {
+  color: var(--clr-neutral-white);
+}
+
+/***********
+Text section
+*************/
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: var(--fw-600);
+  max-width: 70%;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: light;
+}
+
+/***********
+Header section
+*************/
+
+header {
+  display: flex;
+  flex-direction: flex-start;
+  margin-bottom: 90px;
+}
+
+header img {
+  width: 200px;
+}
+
+/**********
+Body
+*********** */
+
+.main-container {
+  display: flex;
+  gap: 2rem;
+}
+
+body {
+  background-image: url(../images/bg-desktop.svg);
+  background-color: var(--clr-primary-violet);
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  text-align: left;
+}
+
+.text {
+  padding: 20px 0;
+}
+
+/* *********
+Button section
+*********** */
+
+button {
+  margin-top: 20px;
+  color: var(--clr-primary-violet);
+  border: solid;
+  width: 200px;
+  height: 60px;
+  left: 1201px;
+  top: 238px;
+  box-shadow: 0px 4px 10px rgba(228, 152, 254, 0.25);
+  border-radius: 51px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+button:hover {
+  background-color: var(--clr-neutral-white);
+}
+
+/* *********
+Footer section
+*********** */
+
+.attribution {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.15em;
+  margin-right: 20px;
+}
+
+.attribution img {
+  height: 35px;
+  font-size: 30px;
+  border: solid;
+  color: white;
+  border-radius: 30px;
+  padding: 3px;
+}
+
+.credit {
+  display: flex;
+  justify-content: center;
+  color: var(--clr-neutral-white);
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-neutral-white);
+}
+
+a:hover {
+  color: var(--clr-neutral-white);
+  background-color: var(--clr-primary-violet);
+}
